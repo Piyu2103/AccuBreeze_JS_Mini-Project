@@ -1,0 +1,26 @@
+{
+  "name": "WebServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "foreachasync": "^3.0.0",
+    "handlebars": "^4.7.6",
+    "hbs": "^4.1.1",
+    "minimist": "^1.2.5",
+    "neo-async": "^2.6.2",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2",
+    "source-map": "^0.6.1",
+    "uglify-js": "^3.13.1",
+    "walk": "^2.3.14",
+    "wordwrap": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node Src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
